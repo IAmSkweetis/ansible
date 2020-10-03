@@ -20,6 +20,10 @@
   include: xserver.yml
   tags: xserver
 
+- name: Setup fonts
+  include: fonts.yml 
+  tags: fonts
+
 - name: Setup streamcapture
   include: streamcapture.yml
   tags: streamcapture
