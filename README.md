@@ -17,4 +17,3 @@ with a Ryzen 3900X and an NVIDIA RTX 4000.
 * Fix streamwall not starting on boot.
 * Add more netdata things.
 * Fix netdata cloud enrollment.
-* Add fonts
