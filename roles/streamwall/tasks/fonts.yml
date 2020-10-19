@@ -7,6 +7,7 @@
       - fonts-ipafont-mincho
       - fonts-ipafont-gothic
       - fonts-unfonts-core
+      - fonts-thai-tlwg
     state: present
     update_cache: true
   become: true

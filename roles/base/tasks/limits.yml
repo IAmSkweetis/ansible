@@ -1,0 +1,14 @@
+---
+- name: "[limits] PAM limits tuning - hard nofile..."
+  community.general.pam_limits:
+    domain: '*'
+    limit_type: hard
+    limit_item: nofile
+    value: '262144'
+
+- name: "[limits] PAM limits tuning - soft nofile..."
+  community.general.pam_limits:
+    domain: '*'
+    limit_type: soft
+    limit_item: nofile
+    value: '262144'

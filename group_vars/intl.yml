@@ -8,7 +8,7 @@ stream_bitrate: 5500
 stream_x264_preset: "faster"
 stream_x264_psy_tune: "film"
 stream_nvenc_preset: "hq"
-grid_count: 6
+grid_count: 8
 streamdelay_in_uri: "srt://127.0.0.1:5000?mode=caller"
 streamdelay_out_uri: "srt://127.0.0.1:5001?mode=listener"
 streamdelay_hostname: "localhost"

@@ -17,3 +17,6 @@ with a Ryzen 3900X and an NVIDIA RTX 4000.
 * Fix streamwall not starting on boot.
 * Add more netdata things.
 * Fix netdata cloud enrollment.
+* Network tuning:
+* ethtool -G enp1s0f1 rx 4096
+* ifconfig enp1s0f1 txqueuelen 10000
