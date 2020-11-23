@@ -1,0 +1,7 @@
+---
+- name: "[streamwall:streamjson] Create streamjson directory..."
+  file:
+    path: "/home/streamwall/stream-json"
+    state: directory
+    owner: streamwall
+    group: streamwall

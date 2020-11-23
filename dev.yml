@@ -1,0 +1,12 @@
+---
+- name: Provision woke server
+  hosts: dev
+  remote_user: ansible
+  become: yes
+  roles:
+    - base
+    - gstreamer-nvenc
+    - geerlingguy.nodejs
+    - streamwall
+#    - mrlesmithjr.netdata
+ 

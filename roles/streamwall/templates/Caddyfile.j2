@@ -9,6 +9,13 @@ route /content/* {
   header Cache-Control no-cache
 }
 
+route /stream/* {
+  uri strip_prefix stream
+  root * /home/streamwall/stream-json
+  file_server
+  header Cache-Control no-cache
+}
+
 log {
   output file /var/log/caddy/streamwall.log
 }

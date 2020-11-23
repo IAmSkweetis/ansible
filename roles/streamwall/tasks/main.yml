@@ -44,6 +44,10 @@
   include: content.yml
   tags: content
 
+- name: Setup stream json directory
+  include: streamjson.yml
+  tags: streamjson
+
 - name: Setup caddy
   include: caddy.yml
   tags: caddy
