@@ -8,5 +8,6 @@
     - gstreamer-nvenc
     - geerlingguy.nodejs
     - streamwall
+    - streambackup
     - mrlesmithjr.netdata
  
