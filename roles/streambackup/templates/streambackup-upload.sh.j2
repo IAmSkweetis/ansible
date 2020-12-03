@@ -6,7 +6,7 @@ bucketName="{{ channel_name }}-backup"
 cd $backupPath
 while :
 do
-    if [[ `ls -t *.flv` ]]
+    if [[ `ls -t *.flv 2> /dev/null` ]]
     then
         for file in `ls -t *.flv`
         do
